@@ -1,0 +1,423 @@
+#scrolly {
+  position: relative;
+  background-color: #efefef;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  height: 95vh;
+  margin: 0;
+  background-color: #ff4714c3;
+  z-index: 0;
+  top: 2vh;
+  bottom: 1vh;
+  /* Center everything inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cdn.glitch.global/7cebc84e-df9c-45e9-95c1-516a7a17465b/Sequence%20010-2.jpg?v=1676607080217);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sticky-thing p {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.step {
+  margin: 0 auto 55rem auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active p {
+  background-color: #ff4714cb;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #3b3b3bb1;
+  border-radius: 2rem;
+}
+
+.container1 {
+  position: relative;
+}
+
+/* Make the image responsive */
+.container1 img {
+  width: 100%;
+  height: 95vh;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container1 #btn1 {
+  position: absolute;
+  top: 58%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container1 #btn2 {
+  position: absolute;
+  top: 75%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container1 #btn1:hover {
+  background-color: #4e8696d2;
+}
+
+.container1 #btn2:hover {
+  background-color: #4e8696d2;
+}
+
+.container2 {
+  position: relative;
+}
+
+.container2 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container2 #btn3 {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container2 #btn3:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container3 {
+  position: relative;
+}
+
+.container3 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container3 #btn4 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container3 #btn4:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container4 {
+  position: relative;
+}
+
+.container4 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container4 #btn5 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.container4 #btn5:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container5 {
+  position: relative;
+}
+
+.container5 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container5 #btn6 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container5 #btn6:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container6 {
+  position: relative;
+}
+
+.container6 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container6 #btn7 {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container6 #btn7:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container7 {
+  position: relative;
+}
+
+.container7 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container7 #btn8 {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container7 #btn8:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container8 {
+  position: relative;
+}
+
+.container8 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container8 #btn9 {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container8 #btn9:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container9 {
+  position: relative;
+}
+
+.container9 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container9 #btn10 {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container9 #btn10:hover {
+  background-color: #4e8696d2;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container10 {
+  position: relative;
+}
+
+.container10 img {
+  width: 100%;
+  height: 95vh;
+}
+
+.container10 #btn11 {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #414141a1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.container10 #btn11:hover {
+  background-color: #4e8696d2;
+}
+
+.hide {
+  display: none;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.glitch.global/3db0668d-e747-49e0-a339-1d622dd99434/2022-03-31.jpg?v=1676482324491");
+  height: 100vh;
+  border: 2rem solid #ff4714;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.footer-text {
+  color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+a {
+  color: #ffffff;
+}
+
+.tooltip {
+  height: 180px;
+  width: auto;
+  margin-left: 5px;
+}
